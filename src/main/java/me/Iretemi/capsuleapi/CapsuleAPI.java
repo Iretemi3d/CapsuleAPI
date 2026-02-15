@@ -1,12 +1,13 @@
 package me.Iretemi.capsuleapi;
-import java.util.UUID;
-import me.Iretemi.capsuleapi.capsule.Capsule;
+
+import me.Iretemi.capsuleapi.capsule.CapsuleAbility;
+import me.Iretemi.capsuleapi.color.CapsuleColor;
+import org.bukkit.inventory.ItemStack;
 
 public interface CapsuleAPI {
 
-    Capsule getCapsule(UUID playerId);
+    ItemStack createCapsuleItem(String id, String name, String description, CapsuleColor color, CapsuleAbility ability);
 
-    void setCapsule(UUID playerId, Capsule capsule);
 }
 
 

@@ -15,4 +15,8 @@ public class Capsule {
     public static void setAPI(CapsuleAPI apiInstance) {
         api = apiInstance;
     }
+
+    public static boolean isLoaded() {
+        return api != null;
+    }
 }

@@ -6,6 +6,8 @@ public interface Capsule {
 
     String getName();
 
+    String getDescription();
+
     CapsuleColor getColor();
 
     CapsuleAbility getAbility();
