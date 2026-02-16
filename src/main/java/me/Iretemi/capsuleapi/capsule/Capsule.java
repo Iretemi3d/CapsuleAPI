@@ -8,6 +8,8 @@ public interface Capsule {
 
     String getDescription();
 
+    Integer getCooldown();
+
     CapsuleColor getColor();
 
     CapsuleAbility getAbility();

@@ -8,8 +8,7 @@ import org.bukkit.inventory.ItemStack;
 
 public interface CapsuleAPI {
 
-    ItemStack createCapsuleItem(String id, String name, String description, Material material, CapsuleColor color, CapsuleAbility ability);
-
+    ItemStack createCapsuleItem(String id, String name, String description, Material material, Integer cooldown, CapsuleColor color, CapsuleAbility ability);
 
     ItemStack toItemStack(Capsule capsule, Material material);
 
