@@ -5,7 +5,7 @@ import org.bukkit.entity.Player;
 public interface CapsuleAbility {
     String getName();
 
-    void activate(Player player);
+    void activate(Player player, Player target);
 
     default void onTick(Player player) {}
 
